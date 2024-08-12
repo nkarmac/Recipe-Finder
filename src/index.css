@@ -1,0 +1,85 @@
+body {
+  background: linear-gradient(
+    155deg,
+    rgb(255, 255, 240) 70%,
+    rgb(178, 253, 252)
+  );
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo img {
+  max-width: 853px;
+  width: 100%;
+}
+
+h3 {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #f3aa4c;
+  font-family: Georgia, serif;
+}
+
+.search {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.search input {
+  font-size: 1.5rem;
+  background-color: rgb(254, 243, 221);
+  color: black;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+  border-radius: 5px;
+  max-width: 800px;
+  flex: 1 0 auto;
+}
+
+.search button {
+  font-size: 1.5rem;
+  font-weight: bold;
+  width: 150px;
+  padding: 10px 20px;
+  background-color: rgb(205, 251, 251);
+  border-radius: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  border: 2px solid rgba(0, 0, 0, 0.5);
+  transition: background-color 0.5s ease;
+  transition: border-color 0.5s ease;
+}
+
+.search button:hover {
+  background-color: hsl(180, 85%, 79%);
+  transition: background-color 0.5s ease;
+  border-color: blueviolet;
+}
+
+.search button:active {
+  background-color: hsl(180, 85%, 59%);
+  transition: background-color 0.5s ease;
+  border-color: blueviolet;
+}
+
+.no-result {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.recipe-cards {
+  margin: 1vw;
+  min-height: 100vh;
+}
