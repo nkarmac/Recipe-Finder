@@ -64,13 +64,13 @@ h3 {
 
 .search button:hover {
   background-color: hsl(180, 85%, 79%);
-  transition: background-color 0.5s ease;
+  transition: background-color 0.4s ease;
   border-color: blueviolet;
 }
 
 .search button:active {
   background-color: hsl(180, 85%, 59%);
-  transition: background-color 0.5s ease;
+  transition: background-color 0.2s ease;
   border-color: blueviolet;
 }
 

@@ -70,7 +70,8 @@ function App() {
 
         <ResponsiveMasonry
           columnsCountBreakPoints={{
-            700: 2,
+            0: 1,
+            500: 2,
             1050: 3,
             1400: 4,
             1750: 5,
